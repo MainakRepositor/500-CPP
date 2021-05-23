@@ -1,2 +1,2 @@
-# 1000-CPP
+# ⭐⭐⭐1000-CPP⭐⭐⭐
 A collection of 1000 C++ Programs
