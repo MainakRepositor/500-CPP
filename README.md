@@ -27,3 +27,14 @@ A collection of 1000 C++ Programs
 | 18 | Print the leaders in an array | https://github.com/MainakRepositor/1000-CPP/blob/master/18.cpp |
 | 19 | Sorting by frequency | https://github.com/MainakRepositor/1000-CPP/blob/master/19.cpp |
 | 20 | Count inversions in array | https://github.com/MainakRepositor/1000-CPP/blob/master/20.cpp |
+| 21 | Finding 2 elements with sum closest to 0 | https://github.com/MainakRepositor/1000-CPP/blob/master/21.cpp |
+| 22 | Finding smallest and second-smallest elements | https://github.com/MainakRepositor/1000-CPP/blob/master/22.cpp |
+| 23 | Majority element in sorted array | https://github.com/MainakRepositor/1000-CPP/blob/master/23.cpp |
+| 24 | Min and Max elements of array | https://github.com/MainakRepositor/1000-CPP/blob/master/24.cpp |
+| 25 | Segregate 0s and 1s in array | https://github.com/MainakRepositor/1000-CPP/blob/master/25.cpp |
+| 26 | K largest element | https://github.com/MainakRepositor/1000-CPP/blob/master/26.cpp |
+| 27 | Maximum size square | https://github.com/MainakRepositor/1000-CPP/blob/master/27.cpp |
+| 28 | Max difference between elements in sorted array | https://github.com/MainakRepositor/1000-CPP/blob/master/28.cpp |
+| 29 | Union of sorted arrays | https://github.com/MainakRepositor/1000-CPP/blob/master/29.cpp |
+| 30 | Floor and ceiling in sorted array | https://github.com/MainakRepositor/1000-CPP/blob/master/30.cpp |
+
