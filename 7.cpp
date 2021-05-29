@@ -1,36 +1,49 @@
-// C++ program to find the element
-// occurring odd number of times
-#include<bits/stdc++.h>
+// C++ program to find angle between hour and minute hands
+#include <bits/stdc++.h>
 using namespace std;
 
-// Function to find the element
-// occurring odd number of times
-int getOddOccurrence(int arr[], int arr_size)
+// Utility function to find minimum of two integers
+int min(int x, int y)
 {
-	for (int i = 0; i < arr_size; i++) {
-		
-		int count = 0;
-		
-		for (int j = 0; j < arr_size; j++)
-		{
-			if (arr[i] == arr[j])
-				count++;
-		}
-		if (count % 2 != 0)
-			return arr[i];
-	}
-	return -1;
+	return (x < y)? x: y;
+	
 }
 
-// driver code
-int main()
+int calcAngle(double h, double m)
+{
+	// validate the input
+	if (h <0 || m < 0 || h >12 || m > 60)
+		printf("Wrong input");
+
+	if (h == 12) h = 0;
+	if (m == 60)
 	{
-		int arr[] = { 2, 3, 5, 4, 5, 2,
-					4, 3, 5, 2, 4, 4, 2 };
-		int n = sizeof(arr) / sizeof(arr[0]);
-
-		// Function calling
-		cout << getOddOccurrence(arr, n);
-
-		return 0;
+	m = 0;
+	h += 1;
+	if(h>12)
+		h = h-12;
 	}
+
+	// Calculate the angles moved
+	// by hour and minute hands
+	// with reference to 12:00
+	float hour_angle = 0.5 * (h * 60 + m);
+	float minute_angle = 6 * m;
+
+	// Find the difference between two angles
+	float angle = abs(hour_angle - minute_angle);
+
+	// Return the smaller angle of two possible angles
+	angle = min(360 - angle, angle);
+
+	return angle;
+}
+
+// Driver Code
+int main()
+{
+	cout << calcAngle(9, 60) << endl;
+	cout << calcAngle(3, 30) << endl;
+	return 0;
+}
+
