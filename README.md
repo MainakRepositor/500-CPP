@@ -1,4 +1,4 @@
-# ⭐⭐⭐1000-CPP⭐⭐⭐
+# ⭐⭐⭐500-CPP⭐⭐⭐
 A collection of 1000 C++ Programs
 
 <hr>
