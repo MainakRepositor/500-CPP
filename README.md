@@ -1,5 +1,5 @@
 # ⭐⭐⭐500-CPP⭐⭐⭐
-A collection of 1000 C++ Programs
+A collection of 500 C++ Programs
 
 <hr>
 
